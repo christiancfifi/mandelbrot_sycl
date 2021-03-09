@@ -1,0 +1,132 @@
+/snap/clion/139/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/vlad/code/mandelbrot_sycl
+-- The CXX compiler identification is GNU 10.2.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- ccache found and enabled
+-- Downloading conan.cmake from https://github.com/conan-io/cmake-conan
+-- Conan: checking conan executable
+-- Conan: Found program /home/vlad/.local/bin/conan
+-- Conan: Version found Conan version 1.34.0
+
+-- Conan: Adding bincrafters remote repository (https://api.bintray.com/conan/bincrafters/public-conan)
+WARN: Remotes registry file missing, creating default one in /home/vlad/.conan/remotes.json
+-- Conan: Automatic detection of conan settings from cmake
+-- Conan: Settings= -s;build_type=Debug;-s;compiler=gcc;-s;compiler.version=10;-s;compiler.libcxx=libstdc++11
+-- Conan: checking conan executable
+-- Conan: Found program /home/vlad/.local/bin/conan
+-- Conan: Version found Conan version 1.34.0
+
+-- Conan executing: /home/vlad/.local/bin/conan install . -s build_type=Debug -s compiler=gcc -s compiler.version=10 -s compiler.libcxx=libstdc++11 -g=cmake --build=missing
+Auto detecting your dev setup to initialize the default profile (/home/vlad/.conan/profiles/default)
+CC and CXX: None, /usr/bin/c++ 
+ERROR: Not able to automatically detect '/usr/bin/c++' version
+ERROR: Unable to find a working compiler
+Default settings
+	os=Linux
+	os_build=Linux
+	arch=x86_64
+	arch_build=x86_64
+	build_type=Release
+*** You can change them in /home/vlad/.conan/profiles/default ***
+*** Or override with -s compiler='other' -s ...s***
+
+
+Configuration:
+[settings]
+arch=x86_64
+arch_build=x86_64
+build_type=Debug
+compiler=gcc
+compiler.libcxx=libstdc++11
+compiler.version=10
+os=Linux
+os_build=Linux
+[options]
+[build_requires]
+[env]
+
+catch2/2.13.3: Not found in local cache, looking in remotes...
+catch2/2.13.3: Trying with 'conan-center'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+catch2/2.13.3: Downloaded recipe revision 0
+docopt.cpp/0.6.2: Not found in local cache, looking in remotes...
+docopt.cpp/0.6.2: Trying with 'conan-center'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+docopt.cpp/0.6.2: Downloaded recipe revision 0
+fmt/6.2.0: Not found in local cache, looking in remotes...
+fmt/6.2.0: Trying with 'conan-center'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+fmt/6.2.0: Downloaded recipe revision 0
+spdlog/1.5.0: Not found in local cache, looking in remotes...
+spdlog/1.5.0: Trying with 'conan-center'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+spdlog/1.5.0: Downloaded recipe revision 0
+WARN: spdlog/1.5.0: requirement fmt/6.2.1 overridden by your conanfile to fmt/6.2.0 
+conanfile.txt: Installing package
+Requirements
+    catch2/2.13.3 from 'conan-center' - Downloaded
+    docopt.cpp/0.6.2 from 'conan-center' - Downloaded
+    fmt/6.2.0 from 'conan-center' - Downloaded
+    spdlog/1.5.0 from 'conan-center' - Downloaded
+Packages
+    catch2/2.13.3:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 - Download
+    docopt.cpp/0.6.2:a25d6c83542b56b72fdaa05a85db5d46f5f0f71c - Download
+    fmt/6.2.0:a25d6c83542b56b72fdaa05a85db5d46f5f0f71c - Download
+    spdlog/1.5.0:270d3115ab09f4c4851a4e1dfbd2e97254780788 - Download
+
+Installing (downloading, building) binaries...
+catch2/2.13.3: Retrieving package 5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 from remote 'conan-center' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+catch2/2.13.3: Package installed 5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+catch2/2.13.3: Downloaded package revision 0
+docopt.cpp/0.6.2: Retrieving package a25d6c83542b56b72fdaa05a85db5d46f5f0f71c from remote 'conan-center' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+docopt.cpp/0.6.2: Package installed a25d6c83542b56b72fdaa05a85db5d46f5f0f71c
+docopt.cpp/0.6.2: Downloaded package revision 0
+fmt/6.2.0: Retrieving package a25d6c83542b56b72fdaa05a85db5d46f5f0f71c from remote 'conan-center' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+fmt/6.2.0: Package installed a25d6c83542b56b72fdaa05a85db5d46f5f0f71c
+fmt/6.2.0: Downloaded package revision 0
+spdlog/1.5.0: Retrieving package 270d3115ab09f4c4851a4e1dfbd2e97254780788 from remote 'conan-center' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+spdlog/1.5.0: Package installed 270d3115ab09f4c4851a4e1dfbd2e97254780788
+spdlog/1.5.0: Downloaded package revision 0
+conanfile.txt: Generator txt created conanbuildinfo.txt
+conanfile.txt: Generator cmake created conanbuildinfo.cmake
+conanfile.txt: Generated conaninfo.txt
+conanfile.txt: Generated graphinfo
+-- Conan: Loading conanbuildinfo.cmake
+-- Conan: Adjusting output directories
+-- Conan: Using cmake targets configuration
+-- Library docopt found /home/vlad/.conan/data/docopt.cpp/0.6.2/_/_/package/a25d6c83542b56b72fdaa05a85db5d46f5f0f71c/lib/libdocopt.a
+-- Library spdlogd found /home/vlad/.conan/data/spdlog/1.5.0/_/_/package/270d3115ab09f4c4851a4e1dfbd2e97254780788/lib/libspdlogd.a
+-- Library fmtd found /home/vlad/.conan/data/fmt/6.2.0/_/_/package/a25d6c83542b56b72fdaa05a85db5d46f5f0f71c/lib/libfmtd.a
+-- Conan: Adjusting default RPATHs Conan policies
+-- Conan: Adjusting language standard
+-- Current conanbuildinfo.cmake directory: /home/vlad/code/mandelbrot_sycl/cmake-build-debug
+-- Conan: Compiler GCC>=5, checking major version 10
+-- Conan: Checking correct version: 10
+Building Tests. Be sure to check out test/constexpr_tests for constexpr testing
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vlad/code/mandelbrot_sycl/cmake-build-debug

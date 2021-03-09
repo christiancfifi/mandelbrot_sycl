@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/vlad/code/mandelbrot_sycl/cmake-build-debug/test",
+  "command": "/usr/bin/c++   -isystem /home/vlad/.conan/data/catch2/2.13.3/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include    -g   -fdiagnostics-color=always -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wuseless-cast -std=gnu++17 -o CMakeFiles/tests.dir/tests.cpp.o -c /home/vlad/code/mandelbrot_sycl/test/tests.cpp",
+  "file": "/home/vlad/code/mandelbrot_sycl/test/tests.cpp"
+},
+{
+  "directory": "/home/vlad/code/mandelbrot_sycl/cmake-build-debug/test",
+  "command": "/usr/bin/c++   -isystem /home/vlad/.conan/data/catch2/2.13.3/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include    -g   -fdiagnostics-color=always -std=gnu++17 -o CMakeFiles/catch_main.dir/catch_main.cpp.o -c /home/vlad/code/mandelbrot_sycl/test/catch_main.cpp",
+  "file": "/home/vlad/code/mandelbrot_sycl/test/catch_main.cpp"
+},
+{
+  "directory": "/home/vlad/code/mandelbrot_sycl/cmake-build-debug/test",
+  "command": "/usr/bin/c++   -isystem /home/vlad/.conan/data/catch2/2.13.3/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include    -g   -fdiagnostics-color=always -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wuseless-cast -std=gnu++17 -o CMakeFiles/constexpr_tests.dir/constexpr_tests.cpp.o -c /home/vlad/code/mandelbrot_sycl/test/constexpr_tests.cpp",
+  "file": "/home/vlad/code/mandelbrot_sycl/test/constexpr_tests.cpp"
+},
+{
+  "directory": "/home/vlad/code/mandelbrot_sycl/cmake-build-debug/test",
+  "command": "/usr/bin/c++  -DCATCH_CONFIG_RUNTIME_STATIC_REQUIRE -isystem /home/vlad/.conan/data/catch2/2.13.3/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include    -g   -fdiagnostics-color=always -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wuseless-cast -std=gnu++17 -o CMakeFiles/relaxed_constexpr_tests.dir/constexpr_tests.cpp.o -c /home/vlad/code/mandelbrot_sycl/test/constexpr_tests.cpp",
+  "file": "/home/vlad/code/mandelbrot_sycl/test/constexpr_tests.cpp"
+},
+{
+  "directory": "/home/vlad/code/mandelbrot_sycl/cmake-build-debug/src",
+  "command": "/usr/bin/c++  -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -isystem /home/vlad/.conan/data/docopt.cpp/0.6.2/_/_/package/a25d6c83542b56b72fdaa05a85db5d46f5f0f71c/include -isystem /home/vlad/.conan/data/fmt/6.2.0/_/_/package/a25d6c83542b56b72fdaa05a85db5d46f5f0f71c/include -isystem /home/vlad/.conan/data/spdlog/1.5.0/_/_/package/270d3115ab09f4c4851a4e1dfbd2e97254780788/include    -g   -fdiagnostics-color=always -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Werror -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wuseless-cast -std=gnu++17 -o CMakeFiles/intro.dir/main.cpp.o -c /home/vlad/code/mandelbrot_sycl/src/main.cpp",
+  "file": "/home/vlad/code/mandelbrot_sycl/src/main.cpp"
+}
+]

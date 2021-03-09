@@ -1,0 +1,5 @@
+if(EXISTS "/home/vlad/code/mandelbrot_sycl/cmake-build-debug/test/constexpr_tests_tests-bb82bf4.cmake")
+  include("/home/vlad/code/mandelbrot_sycl/cmake-build-debug/test/constexpr_tests_tests-bb82bf4.cmake")
+else()
+  add_test(constexpr_tests_NOT_BUILT-bb82bf4 constexpr_tests_NOT_BUILT-bb82bf4)
+endif()
